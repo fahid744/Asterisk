@@ -1,7 +1,7 @@
 #!/bin/bash
 # <UDF NAME="hostname" LABEL="Fully Qualified DNS" />
 # <UDF NAME="secret" LABEL="Secret for MySQL and AMI" />
-
+SECRET = "mypass"
 
 yum -y update
 yum -y install mysql-server httpd php-mysql php-gd php-pear-DB php-pear gcc autoconf make vsftpd gpg
